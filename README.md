@@ -4,7 +4,7 @@ A modern and responsive React Portfolio Website showcasing my projects, skills, 
 This portfolio is designed to be fast, clean, and fully mobile-friendly.
 
 **Live Demo:**  
-[View the Live Site](https://vercel.com/lokendra-kushwahs-projects-88561b95/shop-me-ecommerce)
+[View the Live Site](https://vercel.com/lokendra-kushwahs-projects-88561b95/portfolio)
 
 📌 Features
 
