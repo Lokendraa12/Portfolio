@@ -5,7 +5,7 @@ This portfolio is designed to be fast, clean, and fully mobile-friendly.
 
 🚀 Live Demo
 
-👉 (Add your deployed link here — Vercel / Netlify)
+👉 https://portfolio-nine-nu-ohzy3yg9mx.vercel.app/
 
 📌 Features
 
