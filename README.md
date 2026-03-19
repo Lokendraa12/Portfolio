@@ -5,7 +5,7 @@ This portfolio is designed to be fast, clean, and fully mobile-friendly.
 
 🚀 Live Demo
 
-👉 (Add your deployed link here, e.g. Vercel / Netlify)
+👉 (Add your deployed link here — Vercel / Netlify)
 
 📌 Features
 
@@ -13,7 +13,7 @@ This portfolio is designed to be fast, clean, and fully mobile-friendly.
 
 📱 Fully responsive design (Mobile + Tablet + Desktop)
 
-⚛ Built with React
+⚛ Built with React.js
 
 🎨 Custom CSS styling
 
@@ -35,35 +35,15 @@ HTML5
 
 FontAwesome Icons
 
-
-📁 Project Structure
-/public
-   ├── index.html
-   ├── logo192.png
-   ├── logo512.png
-   ├── Resume.pdf
-/src
-   ├── assets/
-   ├── components/
-   │     ├── About.js
-   │     ├── Contact.js
-   │     ├── Footer.js
-   │     ├── Header.js
-   │     ├── Hero.js
-   │     └── Projects.js
-   ├── App.js
-   ├── App.css
-   ├── index.js
-
 📦 Installation & Setup
 
 Follow these steps to run the project locally:
 
 1. Clone this repository
-git clone https://github.com/YourUsername/your-repo-name.git
+git clone https://github.com/Lokendraa12/Portfolio.git
 
-2. Go to project folder
-cd your-repo-name
+2. Go to the project folder
+cd Portfolio
 
 3. Install dependencies
 npm install
@@ -72,15 +52,16 @@ npm install
 npm start
 
 
-The project will open at:
+Your project will run automatically at:
 
-http://localhost:3000
+👉 http://localhost:3000
 
 🏗️ Build for Production
-npm start
 
+To generate an optimized production build:
 
-This will generate optimized production files in the /build folder.
+npm run build
+
 
 📞 Contact
 
@@ -90,6 +71,6 @@ If you want to reach out, feel free to contact me:
 
 📍 Location: Indore, Madhya Pradesh
 
-🔗 LinkedIn: (Add your link)
+🔗 LinkedIn: https://www.linkedin.com/in/lokendra-kushwah-b828a5307
 
-💻 GitHub: (Add your link)
+💻 GitHub: https://github.com/Lokendraa12
