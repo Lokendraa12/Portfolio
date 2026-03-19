@@ -4,7 +4,7 @@ import calculator from "../assets/calculator.png";
 import ordiio from "../assets/ordio-app.png"; 
 import shopme from "../assets/shopme.png";
 import amazon from "../assets/amazon-clone.png";
-
+import E_commerce from "../assets/logo.png";
 export default function Projects() {
   const projects = [
     {
@@ -23,7 +23,7 @@ export default function Projects() {
       img: shopme,
       title: "ShopMe Ecommerce",
       desc: "An e-commerce website built using React, showcasing a modern shopping interface and responsive design.",
-      link: "https://github.com/Lokendraa12/ShopMe_Ecommerce",
+      link: "https://shop-me-ecommerce-2ssy7s64y-lokendra-kushwahs-projects-88561b95.vercel.app/",
     },
     {
       img: amazon,
@@ -37,6 +37,12 @@ export default function Projects() {
       desc: "A modern, fully responsive music streaming frontend built using Next.js and Tailwind CSS. Designed premium UI/UX with smooth audio controls, clean card layouts, and mobile-first responsiveness.",
       link: "https://ordio-dev-app.vercel.app/",
     },
+    {
+      img: E_commerce,
+      title: " E-Commerce App",
+      desc: "A Full Stack E-Commerce application combines frontend and backend technologies to create a complete online shopping system. It enables users to browse products, manage carts, and place orders while handling data and authentication on the server side.",
+      link: "https://e-commerce-frontend-rose-omega.vercel.app/",
+    }
   ];
 
   return (

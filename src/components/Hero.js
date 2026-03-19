@@ -30,7 +30,7 @@ export default function Hero() {
         <span id="element"></span>
         <div className="button">
           {/* ✅ Download Resume */}
-          <a href="Resume.pdf" download="Resume.pdf">
+          <a href="arun.resume.pdf" download="Resume.pdf">
             <button className="btn">Download Resume</button>
           </a>
 
