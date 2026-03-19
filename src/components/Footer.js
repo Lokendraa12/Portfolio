@@ -19,7 +19,7 @@ export default function Footer() {
         <div className="footer-social">
           <a href="https://github.com/Lokendraa12"><i className="fab fa-github"></i></a>
           <a href="https://www.linkedin.com/in/lokendra-kushwah-b828a5307"><i className="fab fa-linkedin"></i></a>
-          <a href="#"><i className="fab fa-instagram"></i></a>
+          {/* <a href="#"><i className="fab fa-instagram"></i></a> */}
         </div>
       </div>
       <p className="footer-bottom">© 2025 Lokendraportfolio.com || All rights reserved.</p>
