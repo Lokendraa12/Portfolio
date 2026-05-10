@@ -1,10 +1,12 @@
 import React from "react";
+
 import weather from "../assets/weather-app.png";
 import calculator from "../assets/calculator.png";
-import ordiio from "../assets/ordio-app.png"; 
+import ordio from "../assets/ordio-app.png";
 import shopme from "../assets/shopme.png";
 import amazon from "../assets/amazon-clone.png";
-import E_commerce from "../assets/logo.png";
+import ecommerce from "../assets/logo.png";
+
 export default function Projects() {
   const projects = [
     {
@@ -32,29 +34,36 @@ export default function Projects() {
       link: "https://github.com/Lokendraa12/Amazone",
     },
     {
-      img: ordiio,
+      img: ordio,
       title: "Ordiio Music App",
-      desc: "A modern, fully responsive music streaming frontend built using Next.js and Tailwind CSS. Designed premium UI/UX with smooth audio controls, clean card layouts, and mobile-first responsiveness.",
+      desc: "A modern, fully responsive music streaming frontend built using Next.js and Tailwind CSS.",
       link: "https://ordio-dev-app.vercel.app/",
     },
     {
-      img: E_commerce,
-      title: " E-Commerce App",
-      desc: "A Full Stack E-Commerce application combines frontend and backend technologies to create a complete online shopping system. It enables users to browse products, manage carts, and place orders while handling data and authentication on the server side.",
+      img: ecommerce,
+      title: "E-Commerce App",
+      desc: "A full stack e-commerce app with product browsing, cart, orders, authentication, and responsive UI.",
       link: "https://e-commerce-frontend-rose-omega.vercel.app/",
-    }
+    },
   ];
 
   return (
     <section className="projects" id="projects">
       <h1>My Projects</h1>
+
       <div className="projects-container">
         {projects.map((p, index) => (
           <div className="project-card" key={index}>
             <img src={p.img} alt={p.title} />
             <h3>{p.title}</h3>
             <p>{p.desc}</p>
-            <a href={p.link} target="_blank" rel="noreferrer" className="project-btn">
+
+            <a
+              href={p.link}
+              target="_blank"
+              rel="noreferrer"
+              className="project-btn"
+            >
               View Project
             </a>
           </div>
