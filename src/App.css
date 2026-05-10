@@ -681,6 +681,15 @@ button:hover {
 .project-btn:hover {
   background-color: #0ea5e9;
 }
+/* .project-card {
+  min-height: 430px;
+  display: flex;
+  flex-direction: column;
+} */
+
+.project-btn {
+  margin-top: auto;
+}
 
 .about-section {
   padding: 100px 8%;

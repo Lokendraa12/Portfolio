@@ -5,7 +5,7 @@ import calculator from "../assets/calculator.png";
 import ordio from "../assets/ordio-app.png";
 import shopme from "../assets/shopme.png";
 import amazon from "../assets/amazon-clone.png";
-import ecommerce from "../assets/logo.png";
+import ecommerce from "../assets/ecommerce.png";
 
 export default function Projects() {
   const projects = [
