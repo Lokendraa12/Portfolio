@@ -6,6 +6,7 @@ import ordio from "../assets/ordio-app.png";
 import shopme from "../assets/shopme.png";
 import amazon from "../assets/amazon-clone.png";
 import ecommerce from "../assets/ecommerce.png";
+import aiface from "../assets/aiface.png";
 
 export default function Projects() {
   const projects = [
@@ -13,25 +14,26 @@ export default function Projects() {
       img: weather,
       title: "Weather App",
       desc: "This app shows real-time weather using the OpenWeatherMap API. Built with HTML, CSS, and JavaScript.",
-      link: "https://github.com/Lokendraa12/weather-app",
+      github: "https://github.com/Lokendraa12/weather-app"
     },
     {
       img: calculator,
       title: "React Calculator",
       desc: "A modern calculator app built with React and Tailwind CSS. Fully responsive and fast.",
-      link: "https://github.com/Lokendraa12/React-calculator",
+      github: "https://github.com/Lokendraa12/React-calculator",
     },
     {
       img: shopme,
       title: "ShopMe Ecommerce",
       desc: "An e-commerce website built using React, showcasing a modern shopping interface and responsive design.",
       link: "https://shop-me-ecommerce-2ssy7s64y-lokendra-kushwahs-projects-88561b95.vercel.app/",
+      github: "https://github.com/Lokendraa12/ShopMe_Ecommerce",
     },
     {
       img: amazon,
       title: "Amazon Clone",
       desc: "A static Amazon Clone website built using only HTML and CSS, replicating the Amazon homepage design and layout.",
-      link: "https://github.com/Lokendraa12/Amazone",
+      github: "https://github.com/Lokendraa12/Amazone",
     },
     {
       img: ordio,
@@ -44,7 +46,15 @@ export default function Projects() {
       title: "E-Commerce App",
       desc: "A full stack e-commerce app with product browsing, cart, orders, authentication, and responsive UI.",
       link: "https://e-commerce-frontend-rose-omega.vercel.app/",
+      github: "https://github.com/Lokendraa12/E_commerce-Frontend"
     },
+    {
+      img: aiface,
+      title: "AI Face Detection",
+      desc: "AI-based attendance management system that uses face recognition technology to automatically detect and mark student attendance in real time. Built using React.js, Node.js, Express.js, MongoDB, and face-api.js with a modern responsive dashboard UI.",
+      link: "https://ai-attendance-frontend-rho.vercel.app/",
+      github: "https://github.com/Lokendraa12/AI-ATTENDANCE-FRONTEND"
+    }
   ];
 
   return (
@@ -58,14 +68,30 @@ export default function Projects() {
             <h3>{p.title}</h3>
             <p>{p.desc}</p>
 
-            <a
-              href={p.link}
-              target="_blank"
-              rel="noreferrer"
-              className="project-btn"
-            >
-              View Project
-            </a>
+            {
+              p.link && (
+                <a
+                  href={p.link} 
+                  target="_blank"
+                  rel="noreferrer"
+                  className="project-btn"
+                >
+                  View Project
+                </a>
+              )
+            }
+            {
+              p.github && (
+                <a
+                  href={p.github}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="project-btn github-btn"
+                >
+                  View Code
+                </a>
+              )
+            }
           </div>
         ))}
       </div>

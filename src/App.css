@@ -690,6 +690,11 @@ button:hover {
 .project-btn {
   margin-top: auto;
 }
+.github-btn {
+  background-color: #164383;
+  color: white;
+  margin-left: 10px;
+}
 
 .about-section {
   padding: 100px 8%;
